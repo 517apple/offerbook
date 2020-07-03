@@ -1,10 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream> 
 
-
-#pragma comment(lib,"Ws2_32.lib")
-
-
 using namespace std;
 
 
@@ -14,21 +10,14 @@ using namespace std;
 
 class CMyString
 {
+
+	
 public:
 	CMyString(char* pData = NULL);
 	CMyString(const CMyString& str);
-	CMyString& operator =(const CMyString& str)
-	{
-		if (this == &str)
-			return *this;
 
-		delete[]m_pData;
-		m_pData = NULL;
-		m_pData = new char[strlen(str.m_pData) + 1];
-		strcpy(m_pData, str.m_pData);
+	CMyString& operator=(const CMyString& str);
 
-		return *this;
-	}
 
 //	~CMyString(void);
 
@@ -46,14 +35,26 @@ CMyString::CMyString(char* pData)
 }
 
 //²Ù×÷·û= ÖØÔØ
-//CMyString& CMyString::operator *(const CMyString& str)
+CMyString& CMyString::operator=(const CMyString& str)
+{
+	if (this == &str)
+		return *this;
 
+	delete[]m_pData;
+	m_pData = NULL;
+	m_pData = new char[strlen(str.m_pData) + 1];
+	strcpy(m_pData, str.m_pData);
+
+	return *this;
+}
 
 
 int main(void)
 {
 	char sp[] = "luo";
-	CMyString s1(sp),s2(s1);
+	CMyString s1(sp),s2;
+	s2 = s1;
+	s1 = s1;
 
 	s2.print();
 
