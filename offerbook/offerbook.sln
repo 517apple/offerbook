@@ -23,6 +23,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "09 斐波那契数列", "09
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 二进制中1的个数", "10 二进制中1的个数\10 二进制中1的个数.vcxproj", "{10E07386-6411-41E4-A935-C3AAFBBA6662}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13 在O1时间内删除链表节点", "13 在O1时间内删除链表节点\13 在O1时间内删除链表节点.vcxproj", "{7251CD6C-2EA2-438F-B469-8EA62D460956}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -111,6 +113,14 @@ Global
 		{10E07386-6411-41E4-A935-C3AAFBBA6662}.Release|x64.Build.0 = Release|x64
 		{10E07386-6411-41E4-A935-C3AAFBBA6662}.Release|x86.ActiveCfg = Release|Win32
 		{10E07386-6411-41E4-A935-C3AAFBBA6662}.Release|x86.Build.0 = Release|Win32
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Debug|x64.ActiveCfg = Debug|x64
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Debug|x64.Build.0 = Debug|x64
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Debug|x86.ActiveCfg = Debug|Win32
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Debug|x86.Build.0 = Debug|Win32
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x64.ActiveCfg = Release|x64
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x64.Build.0 = Release|x64
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x86.ActiveCfg = Release|Win32
+		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
