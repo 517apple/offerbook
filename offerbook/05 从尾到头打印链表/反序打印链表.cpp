@@ -44,15 +44,35 @@ void PrintList(ListNode* pHead)
 	}
 }
 
+/*
+函数调用自身
+函数循环对自身就行嵌套应该会消耗很多的内存资源的，每调用一次自身都会开辟调用该函数所需的资源
 
+*/
+int sum(int num)
+{
+	static int x = 0;
+	int s;
+	x++;
+	if (num <= 1)
+		return 1;
+	else
+	{
+		cout << "第" << x << "次调用" << endl;
+		
+		s= num + sum(num - 1);
+	}
+	return s;
+}
 
 int main(void)
 {
-
+	cout << sum(5) << endl;
 
 	cout << "hello world" << endl;
 	system("pause");
 	return 0;
 
 }
+
 
