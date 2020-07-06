@@ -3,10 +3,21 @@
 
 using namespace std;
 
+/*
+struct与class的区别：
+1. 默认的权限不一样，struct默认public，class默认private，包括成员权限与继承权限
+2. 在没有构造函数的情况下，struct可用{}进行初始化，而class则需要在成员都是public的情况下才可以这样。
+3. C语言是面向过程的，数据与操作分离，所以才struct当中不能直接定义函数（可以通过包含函数指针的方式）；C++中的类是面向对象的
+*/
+
 struct ListNode
 {
 	int m_nValue;
 	ListNode* m_pNext;
+};
+
+class TEST {
+	int a;//默认的访问权限是private
 };
 /*
 思路：
@@ -55,7 +66,6 @@ void DeleteNode(ListNode** PListHead , ListNode* pToBeDeleted)
 
 int main(void)
 {
-
 
 	cout << "hello world" << endl;
 	system("pause");

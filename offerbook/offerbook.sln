@@ -25,6 +25,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "10 二进制中1的个数",
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "13 在O1时间内删除链表节点", "13 在O1时间内删除链表节点\13 在O1时间内删除链表节点.vcxproj", "{7251CD6C-2EA2-438F-B469-8EA62D460956}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "复述", "复述\复述.vcxproj", "{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -121,6 +123,14 @@ Global
 		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x64.Build.0 = Release|x64
 		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x86.ActiveCfg = Release|Win32
 		{7251CD6C-2EA2-438F-B469-8EA62D460956}.Release|x86.Build.0 = Release|Win32
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Debug|x64.ActiveCfg = Debug|x64
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Debug|x64.Build.0 = Debug|x64
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Debug|x86.ActiveCfg = Debug|Win32
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Debug|x86.Build.0 = Debug|Win32
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Release|x64.ActiveCfg = Release|x64
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Release|x64.Build.0 = Release|x64
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Release|x86.ActiveCfg = Release|Win32
+		{2EC1C314-02D3-46ED-A9E5-58BDC1D549AB}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
