@@ -1,5 +1,6 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream> 
+#include <stack>
 
 using namespace std;
 
@@ -121,14 +122,51 @@ ListNode* ReverseList1(ListNode* pHead)
 	return Rhead;
 }
 
+/*
+反转链表：尝试使用栈的方式来实现
+
+*/
+ListNode* ReverseList2(ListNode* pHead)
+{
+	if (pHead == NULL || pHead->m_pNext == NULL)
+		return pHead;
+
+	stack<int> s;
+	pHead = pHead->m_pNext;
+	while (pHead!=NULL)
+	{
+		s.push(pHead->m_nKey);
+		pHead = pHead->m_pNext;
+	}
+
+	ListNode* head, * p1, * p2;
+	p1 = p2 = head = new ListNode;
+	head->m_pNext = NULL;
+	while(!s.empty())
+	{
+		p1 = new ListNode;
+		p1->m_nKey = s.top();
+		s.pop();
+		p1->m_pNext = NULL;
+		if (head->m_pNext == NULL)
+			head->m_pNext = p1;
+		else
+			p2->m_pNext = p1;
+
+		p2 = p1;
+	}
+	return head;
+	
+}
+
 int main(void)
 {
 	ListNode* head,*head1;
 
 	head = Creat_ListNode();
 	PrintList(head);
-
-	head1 = ReverseList(head);
+	cout << endl;
+	head1 = ReverseList2(head);
 	PrintList(head1);
 
 	cout << "hello world" << endl;
