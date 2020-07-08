@@ -94,7 +94,10 @@ ListNode* ReverseList(ListNode* pHead)
 
 
 /*
-反转链表
+反转链表（参照剑指offer）
+1. 之前出错的原因在于在赋值的时候已经破坏了原来的链表
+2. 该方法是在原来链表的基础上进行的，破坏了原来的链表
+3. 如果链表的头结点也包含数据的话，代码需要稍加修改
 */
 ListNode* ReverseList1(ListNode* pHead)
 {
@@ -102,23 +105,20 @@ ListNode* ReverseList1(ListNode* pHead)
 		return pHead;
 
 	ListNode* pReversedHead = NULL;
-	ListNode* pNode = pHead;
+	ListNode* pNode = pHead->m_pNext;
 	ListNode* pPrev = NULL;	
 	while (pNode!=NULL)
 	{
 		ListNode* pNext = pNode->m_pNext;
-		if (pNode == pHead)
-			pNext->m_pNext = NULL;
+		
+		pNode->m_pNext = pPrev;
 
-		if (pNext==NULL)
-		{
-			pReversedHead = pNode;
-		}
 		pPrev = pNode;
 		pNode = pNext;
+		
 	}
 	ListNode* Rhead = new ListNode;
-	Rhead->m_pNext = pReversedHead;
+	Rhead->m_pNext = pPrev;
 	return Rhead;
 }
 
@@ -143,7 +143,7 @@ ListNode* ReverseList2(ListNode* pHead)
 	p1 = p2 = head = new ListNode;
 	head->m_pNext = NULL;
 	while(!s.empty())
-	{
+	 {
 		p1 = new ListNode;
 		p1->m_nKey = s.top();
 		s.pop();
@@ -166,7 +166,7 @@ int main(void)
 	head = Creat_ListNode();
 	PrintList(head);
 	cout << endl;
-	head1 = ReverseList2(head);
+	head1 = ReverseList1(head);
 	PrintList(head1);
 
 	cout << "hello world" << endl;
