@@ -1,4 +1,4 @@
 ﻿  hello.cpp
-C:\Users\isn017\Source\Repos\517apple\offerbook\offerbook\01 hello\hello.cpp(6,20): warning C4810: pragma pack(show) 的值 == 8
+C:\Users\isn017\source\repos\517apple\offerbook\offerbook\01 hello\hello.cpp(6,20): warning C4810: pragma pack(show) 的值 == 8
   测试而已
   01 hello.vcxproj -> C:\Users\isn017\Source\Repos\517apple\offerbook\offerbook\Debug\01 hello.exe

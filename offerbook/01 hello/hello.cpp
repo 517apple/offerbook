@@ -28,13 +28,21 @@ P22
 */
 };
 
+class test
+{
+public:
+	char a;
+	int b;
+	short c;
+};
+
 int main(void)
 {
-	NULLL n;
+	test n;
 	cout << sizeof(n) << endl;
-	cout << &(n.a) << endl;
-	cout << &(n.b) << endl;
-	cout << &(n.c) << endl;
+	cout << sizeof(n.a) << endl;
+	cout << sizeof(n.b) << endl;
+	cout << sizeof(n.c) << endl;
 
 	cout << "hello world" << endl;
 	system("pause");
