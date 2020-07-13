@@ -4,52 +4,45 @@
 using namespace std;
 
 /*
-快速排序
+快速排序  把+号写成了 - 号  。。。。。。
 */
-
-int Pratition(int data[], int start, int end)
+int partion(int a[], int start, int end)
 {
-	if (data == NULL || start<0 || start>end)
+	if (a == NULL || end < start)
 		return -1;
-
-	int index = (start + end) / 2;
-	swap(data[index], data[end]);
-	index = start - 1;
-	for (size_t i = start; i < end; i++)
+	int value = a[(end + start) / 2], index = start - 1;
+	swap(a[(end + start) / 2], a[end]);
+	for (int i = start; i < end; i++)
 	{
-		if (data[i] < data[end])
+		if (a[i] < value)
 		{
-			++index;
-			if (data[i] != data[index])
-				swap(data[i], data[index]);
+			index++;
+			if (a[index] != a[i])
+				swap(a[index], a[i]);
 		}
 	}
-	++index;
-	swap(data[index], data[end]);
-
+	index++;
+	swap(a[index], a[end]);
 	return index;
 
 }
 
-void QuickSort(int data[], int start, int end)
+void QuickSort(int a[], int start, int end)
 {
-	if (data == NULL || start<0 || start>end)
+	if (a == NULL || end < start)
 		return ;
 
-	int index = Pratition(data , start, end);
-
+	int index = partion(a, start, end);
 	if (index > start)
-		QuickSort(data, start, index - 1);
-	if(index<end)
-		QuickSort(data, index + 1,end);
-
+		QuickSort(a, start, index - 1);
+	if (index < end)
+		QuickSort(a, index + 1, end);
 }
-
 
 int main(void)
 {
 	int a[7] = { 1,2,7,5,9,2,8 };
-	QuickSort(a, 3, 6);
+	QuickSort(a, 0, 6);
 
 	for (size_t i = 0; i < sizeof(a) / sizeof(int); i++)
 	{

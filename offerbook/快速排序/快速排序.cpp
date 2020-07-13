@@ -61,7 +61,7 @@ int main(void)
 {
 
 	int a[7] = {1,2,7,5,9,2,8};
-    QuickSort(a, 3, 6);
+    QuickSort(a, 0, 6);
 
     for (size_t i = 0; i < sizeof(a)/sizeof(int); i++)
     {
