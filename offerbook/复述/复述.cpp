@@ -49,6 +49,11 @@ int main(void)
 		printf("%d  ", a[i]);
 	}
 
+	cout << a << a + 1 << endl;
+
+	int m=2, n=1;
+	cout << &m << endl << &n << endl;
+
 	cout << "hello world" << endl;
 	system("pause");
 	return 0;
