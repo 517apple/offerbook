@@ -1,0 +1,4 @@
+﻿  hello.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\01 hello\hello.cpp(6,20): warning C4810: pragma pack(show) 的值 == 16
+  测试而已
+  01 hello.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\01 hello.exe

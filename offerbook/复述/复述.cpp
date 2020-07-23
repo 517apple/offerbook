@@ -4,55 +4,73 @@
 using namespace std;
 
 /*
-快速排序  把+号写成了 - 号  。。。。。。
+不借助新的空间实现链表的反转
 */
-int partion(int a[], int start, int end)
+
+struct ListNode
 {
-	if (a == NULL || end < start)
-		return -1;
-	int value = a[(end + start) / 2], index = start - 1;
-	swap(a[(end + start) / 2], a[end]);
-	for (int i = start; i < end; i++)
+	int val=0;
+	ListNode* next=NULL;
+};
+
+
+ListNode* rev(ListNode* head)
+{
+	if (head == NULL)
+		return NULL;
+
+	ListNode* NewHead = NULL;
+	ListNode* CurNode = head;
+	ListNode* OldHead = head;
+	while (OldHead!=NULL)
 	{
-		if (a[i] < value)
-		{
-			index++;
-			if (a[index] != a[i])
-				swap(a[index], a[i]);
-		}
+		CurNode = OldHead;
+		OldHead = OldHead->next;
+		CurNode->next = NewHead;
+		NewHead = CurNode;
 	}
-	index++;
-	swap(a[index], a[end]);
-	return index;
-
+	return NewHead;
 }
 
-void QuickSort(int a[], int start, int end)
+void PrintNL(ListNode* head)
 {
-	if (a == NULL || end < start)
-		return ;
+	if (head == NULL)
+		return;
 
-	int index = partion(a, start, end);
-	if (index > start)
-		QuickSort(a, start, index - 1);
-	if (index < end)
-		QuickSort(a, index + 1, end);
+	while (head!=NULL)
+	{
+		printf("%d\t", head->val);
+		head = head->next;
+	}
+	printf("\n");
 }
+
+
 
 int main(void)
 {
-	int a[7] = { 1,2,7,5,9,2,8 };
-	QuickSort(a, 0, 6);
+	ListNode a;
+	ListNode b;
+	ListNode c;
+	ListNode d;
+	ListNode e;
 
-	for (size_t i = 0; i < sizeof(a) / sizeof(int); i++)
-	{
-		printf("%d  ", a[i]);
-	}
+	a.val = 1;
+	a.next = &b;
+	b.val = 2;
+	b.next = &c;
+	c.val = 3;
+	c.next = &d;
+	d.val = 4;
+	d.next = &e;
+	e.val = 5;
+	e.next = NULL;
 
-	cout << a << a + 1 << endl;
+	PrintNL(&a);
 
-	int m=2, n=1;
-	cout << &m << endl << &n << endl;
+	ListNode* node;
+	node = rev(&a);
+	PrintNL(node);
 
 	cout << "hello world" << endl;
 	system("pause");
