@@ -42,19 +42,39 @@ long long Fibonacci1(unsigned int n)
 
 }
 
+long long Fibonacci2(unsigned int n)
+{
+	if (n < 2)
+		return n;
+	long long fn = 0, f1 = 0, f2 = 1;
+	for (int i = 2; i <= n; i++)
+	{
+		fn = f1 + f2;
+		f1 = f2;
+		f2 = fn;
+	}
+
+	return fn;
+}
+
+
 int main(void)
 {
 	clock_t start_time, end_time;
+	size_t n = 35;
+
+	cout << "n:" << n << endl;
+
 	start_time = clock();   //获取开始执行时间
 
-	cout << Fibonacci(35) << endl;
+	cout << Fibonacci(n) << endl;
 
 	end_time = clock();     //获取结束时间 
 	printf("%.1f ms\n", (double)(end_time - start_time));
 
 	start_time = clock();   //获取开始执行时间
 
-	cout << Fibonacci1(35) << endl;
+	cout << Fibonacci2(n) << endl;
 
 	end_time = clock();     //获取结束时间 
 	printf("%.1f ms\n", (double)(end_time - start_time));
