@@ -1,0 +1,4 @@
+﻿  链表倒数第k个节点.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\15 链表倒数第k个节点\链表倒数第k个节点.cpp(21,11): warning C4018: “<”: 有符号/无符号不匹配
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\15 链表倒数第k个节点\链表倒数第k个节点.cpp(50,17): warning C4267: “=”: 从“size_t”转换到“int”，可能丢失数据
+  15 链表倒数第k个节点.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\15 链表倒数第k个节点.exe

@@ -1,0 +1,7 @@
+﻿  两个栈实现队列.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\07 用两个栈实现队列\两个栈实现队列.cpp(54,18): warning C4267: “参数”: 从“size_t”转换到“const T”，可能丢失数据
+          with
+          [
+              T=int
+          ]
+  07 用两个栈实现队列.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\07 用两个栈实现队列.exe
