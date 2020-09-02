@@ -1,6 +1,7 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream> 
 #include <deque>
+#include <vector>
 
 using namespace std;
 
@@ -32,9 +33,15 @@ int reverse(int x) {
 
 int main(void)
 {
-	cout << reverse(1534236469) << endl;
+	//cout << reverse(1534236469) << endl;
 	cout << INT_MAX << endl;
 	cout << INT_MIN << endl;
+
+	vector<string> vs = {"flower", "flow", "flight"};
+	cout << vs.size() << endl;
+	string s1;
+	vs[0].erase(2);
+	cout << vs[0] << endl;
 
 	cout << "hello world" << endl;
 	system("pause");
