@@ -55,7 +55,7 @@ vector<vector<int>> levelOrderBottom(TreeNode* root) {
 		tarvec.push_back(stackvec.top());
 		stackvec.pop();
 	}
-
+	//可以使用reverse函数
 	return tarvec;
 
 }
