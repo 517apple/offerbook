@@ -61,6 +61,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "hot8字符串转整数", "h
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "表示数值的字符串", "表示数值的字符串\表示数值的字符串.vcxproj", "{87611FC9-14E9-4B1E-B26A-36CBB9E28987}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt107二叉树的层次遍历", "lt107二叉树的层次遍历\lt107二叉树的层次遍历.vcxproj", "{AA724177-B79D-44F1-A3B4-74F964256E67}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -301,6 +303,14 @@ Global
 		{87611FC9-14E9-4B1E-B26A-36CBB9E28987}.Release|x64.Build.0 = Release|x64
 		{87611FC9-14E9-4B1E-B26A-36CBB9E28987}.Release|x86.ActiveCfg = Release|Win32
 		{87611FC9-14E9-4B1E-B26A-36CBB9E28987}.Release|x86.Build.0 = Release|Win32
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Debug|x64.ActiveCfg = Debug|x64
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Debug|x64.Build.0 = Debug|x64
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Debug|x86.ActiveCfg = Debug|Win32
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Debug|x86.Build.0 = Debug|Win32
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Release|x64.ActiveCfg = Release|x64
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Release|x64.Build.0 = Release|x64
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Release|x86.ActiveCfg = Release|Win32
+		{AA724177-B79D-44F1-A3B4-74F964256E67}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
