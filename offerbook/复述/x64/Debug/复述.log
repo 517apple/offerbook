@@ -1,2 +1,3 @@
 ﻿  复述.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\复述\复述.cpp(61,34): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
   复述.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\复述.exe

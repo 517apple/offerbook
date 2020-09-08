@@ -43,7 +43,7 @@ vector<vector<int>> levelOrderBottom(TreeNode* root) {
 			if (curdenode.front()->right != NULL)
 				nextdenode.push_back(curdenode.front()->right);
 			curdenode.pop_front();
-		}
+		} 
 		stackvec.push(vec);
 		//tarvec.push_back(vec);
 		curdenode = nextdenode;
