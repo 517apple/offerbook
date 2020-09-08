@@ -85,14 +85,14 @@ int main(void)
 	}
 	cout << endl;
 	
-	//cout << "--------------分割线-------------" << endl;
+	cout << "--------------分割线-------------" << endl;
 
-	//quicksort(nums, 0, nums.size() - 1);
-	//for (size_t i = 0; i < nums.size(); i++)
-	//{
-	//	cout << nums[i] << " ";
-	//}
-	//cout << endl;
+	quicksort(nums, 0, nums.size() - 1);
+	for (size_t i = 0; i < nums.size(); i++)
+	{
+		cout << nums[i] << " ";
+	}
+	cout << endl;
 
 	cout << "hello world" << endl;
 	system("pause");
