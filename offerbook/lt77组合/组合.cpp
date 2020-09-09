@@ -34,7 +34,7 @@ vector<vector<int>> combine(int n, int k) {
 int main(void)
 {
     vector<vector<int>> ans;
-    ans = combine(4, 2);
+    ans = combine(4, 3);
 
     
 
