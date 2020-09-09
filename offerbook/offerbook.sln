@@ -69,6 +69,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt77组合", "lt77组合\lt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt39组合总和", "lt39组合总和\lt39组合总和.vcxproj", "{8EAEDB53-47CE-4F7A-A88E-C42D62236E66}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt46全排列", "lt46全排列\lt46全排列.vcxproj", "{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -341,6 +343,14 @@ Global
 		{8EAEDB53-47CE-4F7A-A88E-C42D62236E66}.Release|x64.Build.0 = Release|x64
 		{8EAEDB53-47CE-4F7A-A88E-C42D62236E66}.Release|x86.ActiveCfg = Release|Win32
 		{8EAEDB53-47CE-4F7A-A88E-C42D62236E66}.Release|x86.Build.0 = Release|Win32
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Debug|x64.ActiveCfg = Debug|x64
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Debug|x64.Build.0 = Debug|x64
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Debug|x86.ActiveCfg = Debug|Win32
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Debug|x86.Build.0 = Debug|Win32
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Release|x64.ActiveCfg = Release|x64
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Release|x64.Build.0 = Release|x64
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Release|x86.ActiveCfg = Release|Win32
+		{A53E39F8-2F7D-4B4B-90EB-5E2E94272398}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
