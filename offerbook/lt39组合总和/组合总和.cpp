@@ -55,8 +55,31 @@ void dfs(vector<int>& candidates, int target, int index)
 	{
 		for (int i = index; i < candidates.size(); i++)
 		{
+
+			if (target - candidates[i] < 0)
+				break;
+
+
 			temp.push_back(candidates[i]);
+			
+			cout << "递归之前数组：";
+			for (vector<int>::iterator iter = temp.begin(); iter < temp.end(); iter++)
+			{
+				cout << *iter << " ";
+			}
+			cout << "\t  剩余：" << target << endl;
+
+
 			dfs(candidates, target - candidates[i], i);
+
+			cout << "递归之后数组：";
+			for (vector<int>::iterator iter = temp.begin(); iter < temp.end(); iter++)
+			{
+				cout << *iter << " ";
+			}
+			cout << "\t  剩余：" << target << endl;
+
+
 			temp.pop_back();
 		}
 	}
@@ -71,7 +94,7 @@ vector<vector<int>> combinationSum(vector<int>& candidates, int target) {
 
 int main(void)
 {
-	vector<int> candidates = { 7,6,1,3,2};
+	vector<int> candidates = { 2,3,6,7};
 	vector<vector<int>> ans;
 
 	quicksort(candidates, 0, candidates.size() - 1);
