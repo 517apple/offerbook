@@ -1,0 +1,4 @@
+﻿  求众数II.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt229求众数\求众数II.cpp(16,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt229求众数\求众数II.cpp(40,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt229求众数.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt229求众数.exe

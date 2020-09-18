@@ -46,7 +46,7 @@ void dfs1(int index, int k, int target)
 		res.push_back(temp);
 		return;
 	}
-	if (target - nums[index] < 0 || k == 0)
+	if (target < 0 || k == 0)
 		return;
 
 	for (int i = index; i < 9; i++)
@@ -57,7 +57,21 @@ void dfs1(int index, int k, int target)
 
 		temp.push_back(nums[i]);
 
+		cout << "递归之前数组：";
+		for (vector<int>::iterator iter = temp.begin(); iter < temp.end(); iter++)
+		{
+			cout << *iter << " ";
+		}
+		cout << "\t  剩余：" << target << endl;
+
 		dfs1(i + 1, k - 1, target - nums[i]);
+
+		cout << "递归之后数组：";
+		for (vector<int>::iterator iter = temp.begin(); iter < temp.end(); iter++)
+		{
+			cout << *iter << " ";
+		}
+		cout << "\t  剩余：" << target << endl;
 
 		temp.pop_back();
 	}
@@ -74,7 +88,7 @@ vector<vector<int>> combinationSum3(int k, int n) {
 int main(void)
 {
 	vector<vector<int>> ans;
-	ans = combinationSum3(3, 9);
+	ans = combinationSum3(3, 15);
 
 	cout << "hello world" << endl;
 	system("pause");
