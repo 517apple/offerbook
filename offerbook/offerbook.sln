@@ -91,6 +91,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt404.左叶子之和", "lt
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt.538把二叉树转换为累加树", "lt.538把二叉树转换为累加树\lt.538把二叉树转换为累加树.vcxproj", "{F9D8A091-ACCD-47B6-AEEF-972A6B7F07B6}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt152.乘积最大的子数组", "lt152.乘积最大的数组\lt152.乘积最大的数组.vcxproj", "{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -451,6 +453,14 @@ Global
 		{F9D8A091-ACCD-47B6-AEEF-972A6B7F07B6}.Release|x64.Build.0 = Release|x64
 		{F9D8A091-ACCD-47B6-AEEF-972A6B7F07B6}.Release|x86.ActiveCfg = Release|Win32
 		{F9D8A091-ACCD-47B6-AEEF-972A6B7F07B6}.Release|x86.Build.0 = Release|Win32
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Debug|x64.ActiveCfg = Debug|x64
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Debug|x64.Build.0 = Debug|x64
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Debug|x86.ActiveCfg = Debug|Win32
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Debug|x86.Build.0 = Debug|Win32
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x64.ActiveCfg = Release|x64
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x64.Build.0 = Release|x64
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x86.ActiveCfg = Release|Win32
+		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
