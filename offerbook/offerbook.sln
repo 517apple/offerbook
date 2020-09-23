@@ -93,6 +93,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt.538把二叉树转换为
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt152.乘积最大的子数组", "lt152.乘积最大的数组\lt152.乘积最大的数组.vcxproj", "{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt.617合并二叉树", "lt.617合并二叉树\lt.617合并二叉树.vcxproj", "{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -461,6 +463,14 @@ Global
 		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x64.Build.0 = Release|x64
 		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x86.ActiveCfg = Release|Win32
 		{A16CFBB8-7AF7-4C99-946F-24E7CDE16EB3}.Release|x86.Build.0 = Release|Win32
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Debug|x64.ActiveCfg = Debug|x64
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Debug|x64.Build.0 = Debug|x64
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Debug|x86.ActiveCfg = Debug|Win32
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Debug|x86.Build.0 = Debug|Win32
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Release|x64.ActiveCfg = Release|x64
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Release|x64.Build.0 = Release|x64
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Release|x86.ActiveCfg = Release|Win32
+		{61DE1C35-320B-4D4E-81DE-EBAEFCA22CB5}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
