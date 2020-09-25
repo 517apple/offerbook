@@ -99,6 +99,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt501.二搜索树中的众
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt16.最接近的三数之和", "lt16.最接近的三数之和\lt16.最接近的三数之和.vcxproj", "{9EF4206C-2851-4350-B551-7507B7433902}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt14.最长公共前缀", "lt14.最长公共前缀\lt14.最长公共前缀.vcxproj", "{23465CCE-16E8-4676-A558-23308F48C580}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -491,6 +493,14 @@ Global
 		{9EF4206C-2851-4350-B551-7507B7433902}.Release|x64.Build.0 = Release|x64
 		{9EF4206C-2851-4350-B551-7507B7433902}.Release|x86.ActiveCfg = Release|Win32
 		{9EF4206C-2851-4350-B551-7507B7433902}.Release|x86.Build.0 = Release|Win32
+		{23465CCE-16E8-4676-A558-23308F48C580}.Debug|x64.ActiveCfg = Debug|x64
+		{23465CCE-16E8-4676-A558-23308F48C580}.Debug|x64.Build.0 = Debug|x64
+		{23465CCE-16E8-4676-A558-23308F48C580}.Debug|x86.ActiveCfg = Debug|Win32
+		{23465CCE-16E8-4676-A558-23308F48C580}.Debug|x86.Build.0 = Debug|Win32
+		{23465CCE-16E8-4676-A558-23308F48C580}.Release|x64.ActiveCfg = Release|x64
+		{23465CCE-16E8-4676-A558-23308F48C580}.Release|x64.Build.0 = Release|x64
+		{23465CCE-16E8-4676-A558-23308F48C580}.Release|x86.ActiveCfg = Release|Win32
+		{23465CCE-16E8-4676-A558-23308F48C580}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
