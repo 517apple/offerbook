@@ -4,6 +4,10 @@
 
 using namespace std;
 
+
+/*
+直接使用两个指针的做法还不能处理;pwwkew 这种字符串类型
+*/
 int lengthOfLongestSubstring(string s) {
 	unordered_map<char, int> m1;
 	int maxLen = 1, strlen = s.length();
