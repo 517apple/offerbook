@@ -72,6 +72,56 @@ vector<int> searchRange(vector<int>& nums, int target) {
 }
 
 
+/*
+下面这个是参考的题解
+思路是理由一个while循环寻找边界，没有利用迭代的方法
+
+这个解法还没有真正理解
+*/
+
+
+
+vector<int> searchRange1(vector<int>& nums, int target) {
+	int len = nums.size();
+	vector<int> res = { -1,-1 };
+	if (len == 0 || target < nums[0])
+		return res;
+
+	int l = 0, r = len - 1;
+	//寻找左边界，
+	while (r>l)
+	{
+		int m = (l + r) / 2;
+		if (nums[m] >= target)
+			r = m;
+		else
+			l = m + 1;
+	}
+
+	if (nums[l] != target)
+		return res;
+
+	res[0] = l;
+	r = len-1;
+
+	//寻找右边界
+	while (r > l)
+	{
+		int m = (l + r) / 2;
+		if (nums[m] <= target)
+			l = m;
+		else
+			r = m-1;
+	}
+
+	res[1] = r;
+
+	return res;
+}
+
+
+
+
 int main(void)
 {
 
