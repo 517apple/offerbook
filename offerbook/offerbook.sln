@@ -127,6 +127,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt41.缺失的第一个正�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt24.两两交换链表中的节点", "lt24.两两交换链表中的节点\lt24.两两交换链表中的节点.vcxproj", "{93E124D5-8141-4453-81A7-8442D57A259E}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt1002.查找常用字符", "lt1002.查找常用字符\lt1002.查找常用字符.vcxproj", "{5779026A-6BC8-4CD7-A770-6C9AC8512681}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -631,6 +633,14 @@ Global
 		{93E124D5-8141-4453-81A7-8442D57A259E}.Release|x64.Build.0 = Release|x64
 		{93E124D5-8141-4453-81A7-8442D57A259E}.Release|x86.ActiveCfg = Release|Win32
 		{93E124D5-8141-4453-81A7-8442D57A259E}.Release|x86.Build.0 = Release|Win32
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Debug|x64.ActiveCfg = Debug|x64
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Debug|x64.Build.0 = Debug|x64
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Debug|x86.ActiveCfg = Debug|Win32
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Debug|x86.Build.0 = Debug|Win32
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x64.ActiveCfg = Release|x64
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x64.Build.0 = Release|x64
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x86.ActiveCfg = Release|Win32
+		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
