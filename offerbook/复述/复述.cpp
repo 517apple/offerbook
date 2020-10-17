@@ -2,96 +2,54 @@
 #include <iostream> 
 #include <vector>
 
+
 using namespace std;
+
+/*
+快速排序复现
+思路：递归分治
+1. 随机选取一个数，找到该数在整个数组中的位置，同时把以改数为界把数组分为两个大小
+2. 再使用递归的方式
+*/
 
 void quicksort(vector<int>& a, int start, int end)
 {
-	if (start==end)
-		return;
-
-	int index = (start + end) / 2;
+	int index = (start+end)/2;
 	swap(a[index], a[end]);
-	index = start - 1;
+	index = start-1;
 	for (int i = start; i < end; i++)
 	{
 		if (a[i] < a[end])
 		{
 			index++;
-			swap(a[i], a[index]);
-		}	
-	}
-	index++;
-	swap(a[index], a[end]);
-
-	if (index > start)
-		quicksort(a, start, index - 1);
-	if (index < end)
-		quicksort(a, index+1, end);
-
-}
-
-void quicksort_array(int a[],int start,int end)
-{
-	if (start == end)
-		return;
-	int index = (start + end) / 2;
-	swap(a[index], a[end]);
-	index = start - 1;
-	for (int i = start; i < end; i++)          //!!!!!!!!此处i的初始值是start
-	{
-		if (a[i] < a[end])
-		{
-			index++;
-			if(i!=index)
-				swap(a[index], a[i]);
+			swap(a[index], a[i]);
 		}
 	}
 	index++;
 	swap(a[index], a[end]);
-
 	if (index > start)
-		quicksort_array(a, start, index - 1);
+		quicksort(a, start, index - 1);
 	if (index < end)
-		quicksort_array(a, index + 1, end);
-
+		quicksort(a, index + 1, end);
 }
 
-
-vector<int> topKFrequent(vector<int>& nums, int k) {
-	quicksort(nums, 0, nums.size()-1);
-	vector<int> tarvec;
-	int i = 0, j = 1;
-
-	return nums;
-}
 
 
 int main(void)
 {
-	int a[5] = { 5,4,3,2,1};
-	vector<int> nums = { 1,4,2,7,6 };
+	vector<int> a = { 5,4,3,2,1,-2 };
 
-	for (size_t i = 0; i < sizeof(a) / sizeof(int); i++)
+	char ch;
+	cin >> ch;
+	while (ch!=-1)
 	{
-		cout << a[i] << " ";
+		a.push_back((int)ch);
+		cin >> ch;
 	}
-	cout << endl;
+	quicksort(a, 0, a.size() - 1);
+	for (int x : a)
+		cout << x << " ";
 
-	quicksort_array(a, 0, 4);
-
-	for (size_t i = 0; i < sizeof(a)/sizeof(int); i++)
-	{
-		cout << a[i] << " ";
-	}
-	cout << endl;
-	
-	cout << "--------------分割线-------------" << endl;
-
-	quicksort(nums, 0, nums.size() - 1);
-	for (size_t i = 0; i < nums.size(); i++)
-	{
-		cout << nums[i] << " ";
-	}
 	cout << endl;
 
 	cout << "hello world" << endl;

@@ -129,6 +129,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt24.两两交换链表中�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt1002.查找常用字符", "lt1002.查找常用字符\lt1002.查找常用字符.vcxproj", "{5779026A-6BC8-4CD7-A770-6C9AC8512681}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt977.有序数组的平方", "lt977.有序数组的平方\lt977.有序数组的平方.vcxproj", "{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -641,6 +643,14 @@ Global
 		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x64.Build.0 = Release|x64
 		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x86.ActiveCfg = Release|Win32
 		{5779026A-6BC8-4CD7-A770-6C9AC8512681}.Release|x86.Build.0 = Release|Win32
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Debug|x64.ActiveCfg = Debug|x64
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Debug|x64.Build.0 = Debug|x64
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Debug|x86.ActiveCfg = Debug|Win32
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Debug|x86.Build.0 = Debug|Win32
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Release|x64.ActiveCfg = Release|x64
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Release|x64.Build.0 = Release|x64
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Release|x86.ActiveCfg = Release|Win32
+		{D13FE446-5624-4EC5-8796-98BCCCEBAEBE}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
