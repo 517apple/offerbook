@@ -1,6 +1,8 @@
 #define _CRT_SECURE_NO_WARNINGS
 #include <iostream> 
 #include <vector>
+#include <ctime> 
+#include <windows.h>
 
 
 using namespace std;
@@ -33,27 +35,56 @@ void quicksort(vector<int>& a, int start, int end)
 		quicksort(a, index + 1, end);
 }
 
+/*
+≤Â»Î≈≈–Ú
+*/
 
+void insertsort(vector<int>& a)
+{
+	for (long i = 1; i < a.size(); i++)
+	{
+		int key = a[i];
+		long j = i-1;
+		while (j>=0 && a[j]>key)
+		{
+			swap(a[j], a[j + 1]);
+			j--;
+		}
+		a[j + 1] = key;
+	}
+}
 
 int main(void)
 {
-	vector<int> a = { 5,4,3,2,1,-2 };
+	vector<int> a;
 
-	char ch;
-	cin >> ch;
-	while (ch!=-1)
-	{
-		a.push_back((int)ch);
-		cin >> ch;
+	clock_t begin = clock();
+	cout << begin << endl;
+
+	for (long index = 0; index < 100000; index++) {
+		a.push_back(rand());
 	}
-	quicksort(a, 0, a.size() - 1);
-	for (int x : a)
-		cout << x << " ";
 
-	cout << endl;
+	begin = clock();
+	cout << begin << endl;
 
-	cout << "hello world" << endl;
-	system("pause");
+	//for (int x : a)
+	//	std::cout << x << " ";
+	//cout << endl;
+
+	//quicksort(a, 0, a.size() - 1);
+	insertsort(a);
+
+	clock_t end = clock();
+	cout << end << endl;
+
+	//for (int x : a)
+	//	std::cout << x << " ";
+
+	std::cout << endl;
+
+	std::cout << "hello world" << endl;
+	std::system("pause");
 	return 0;
 
 }
