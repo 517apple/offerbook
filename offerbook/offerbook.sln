@@ -135,6 +135,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "排序算法小结", "排�
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt50.Pow(x,n)", "lt50.Pow(x,n)\lt50.Pow(x,n).vcxproj", "{86A4A09E-CF46-4A5A-A72D-3965DAB234C5}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt143.重排链表", "lt143.重排链表\lt143.重排链表.vcxproj", "{A0BBCFB1-4175-4F11-BBA2-9108C942783E}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -671,6 +673,14 @@ Global
 		{86A4A09E-CF46-4A5A-A72D-3965DAB234C5}.Release|x64.Build.0 = Release|x64
 		{86A4A09E-CF46-4A5A-A72D-3965DAB234C5}.Release|x86.ActiveCfg = Release|Win32
 		{86A4A09E-CF46-4A5A-A72D-3965DAB234C5}.Release|x86.Build.0 = Release|Win32
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Debug|x64.ActiveCfg = Debug|x64
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Debug|x64.Build.0 = Debug|x64
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Debug|x86.ActiveCfg = Debug|Win32
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Debug|x86.Build.0 = Debug|Win32
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Release|x64.ActiveCfg = Release|x64
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Release|x64.Build.0 = Release|x64
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Release|x86.ActiveCfg = Release|Win32
+		{A0BBCFB1-4175-4F11-BBA2-9108C942783E}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
