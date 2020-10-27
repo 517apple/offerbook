@@ -8,7 +8,7 @@ using namespace std;
 /*
 直接使用两个指针的做法还不能处理;pwwkew 这种字符串类型
 */
-int lengthOfLongestSubstring(string s) {
+int lengthOfLongestSubstring1(string s) {
 	unordered_map<char, int> m1;
 	int maxLen = 1, strlen = s.length();
 	if (strlen <= 1)
@@ -34,6 +34,26 @@ int lengthOfLongestSubstring(string s) {
 	maxLen = pright - pleft;
 
 	return maxLen;
+}
+
+
+int lengthOfLongestSubstring(string s) {
+	int len = s.size();
+	if (len <= 1)
+		return len;
+	vector<int> mymap(130, 0);
+	int i = 0, j = 0,maxlen=0;
+
+	for (; j < len; j++)
+	{
+		mymap[s[j]]++;
+		while (mymap[s[j]] > 1)
+			mymap[s[i++]]--;
+		if (j - i + 1 > maxlen)
+			maxlen = j - i + 1;
+	}
+	return maxlen;
+
 }
 
 int main(void)

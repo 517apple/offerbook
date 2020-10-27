@@ -1,3 +1,4 @@
 ﻿  无重复字符的最长子串.cpp
-C:\Users\apple\source\repos\517apple\offerbook\offerbook\hot3 无重复字符的最长子串\无重复字符的最长子串.cpp(9,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\hot3 无重复字符的最长子串\无重复字符的最长子串.cpp(13,37): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\hot3 无重复字符的最长子串\无重复字符的最长子串.cpp(41,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   hot3 无重复字符的最长子串.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\hot3 无重复字符的最长子串.exe
