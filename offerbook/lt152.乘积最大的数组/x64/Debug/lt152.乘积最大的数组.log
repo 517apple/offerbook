@@ -1,0 +1,5 @@
+﻿  乘积最大的子数组.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt152.乘积最大的数组\乘积最大的子数组.cpp(17,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt152.乘积最大的数组\乘积最大的子数组.cpp(41,5): error C2084: 函数“int maxProduct(std::vector<int,std::allocator<int>> &)”已有主体
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt152.乘积最大的数组\乘积最大的子数组.cpp(16): message : 参见“maxProduct”的前一个定义
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt152.乘积最大的数组\乘积最大的子数组.cpp(42,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据

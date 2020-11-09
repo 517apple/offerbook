@@ -1,0 +1,2 @@
+﻿  合并二叉树.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt.617合并二叉树\合并二叉树.cpp(52): error C4703: 使用了可能未初始化的本地指针变量“root”

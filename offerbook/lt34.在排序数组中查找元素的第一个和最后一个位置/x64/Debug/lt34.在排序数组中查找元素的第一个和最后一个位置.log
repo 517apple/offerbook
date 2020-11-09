@@ -1,0 +1,4 @@
+﻿  排序数组中查找元素的第一个和最后一个位置.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt34.在排序数组中查找元素的第一个和最后一个位置\排序数组中查找元素的第一个和最后一个位置.cpp(46,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt34.在排序数组中查找元素的第一个和最后一个位置\排序数组中查找元素的第一个和最后一个位置.cpp(85,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt34.在排序数组中查找元素的第一个和最后一个位置.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt34.在排序数组中查找元素的第一个和最后一个位置.exe

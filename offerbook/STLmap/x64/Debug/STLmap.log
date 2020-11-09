@@ -1,2 +1,8 @@
 ﻿  STLmap.cpp
-  STLmap.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\STLmap.exe
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\STLmap\STLmap.cpp(31,5): error C2672: “std::vector<A,std::allocator<A>>::emplace”: 未找到匹配的重载函数
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\STLmap\STLmap.cpp(31,15): error C2440: “初始化”: 无法从“A”转换为“std::_Vector_const_iterator<std::_Vector_val<std::_Simple_types<_Ty>>>”
+          with
+          [
+              _Ty=A
+          ]
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\STLmap\STLmap.cpp(31,14): message : 没有可用于执行该转换的用户定义的转换运算符，或者无法调用该运算符

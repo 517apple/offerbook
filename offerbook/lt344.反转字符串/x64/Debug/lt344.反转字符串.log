@@ -1,0 +1,3 @@
+﻿  反转字符串.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt344.反转字符串\反转字符串.cpp(16,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt344.反转字符串.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt344.反转字符串.exe

@@ -1,0 +1,6 @@
+﻿  实现strstr.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt28.实现strstr\实现strstr.cpp(19,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt28.实现strstr\实现strstr.cpp(19,50): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt28.实现strstr\实现strstr.cpp(40,28): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt28.实现strstr\实现strstr.cpp(40,47): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt28.实现strstr.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt28.实现strstr.exe

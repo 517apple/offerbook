@@ -1,0 +1,13 @@
+﻿  有序数组的平方.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt977.有序数组的平方\有序数组的平方.cpp(10,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt977.有序数组的平方\有序数组的平方.cpp(18,20): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt977.有序数组的平方\有序数组的平方.cpp(23,20): warning C4244: “=”: 从“double”转换到“_Ty”，可能丢失数据
+          with
+          [
+              _Ty=int
+          ]
+  lt977.有序数组的平方.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt977.有序数组的平方.exe

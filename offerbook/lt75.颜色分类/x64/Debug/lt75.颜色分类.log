@@ -1,0 +1,5 @@
+﻿  颜色分类.cpp
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt75.颜色分类\颜色分类.cpp(21,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt75.颜色分类\颜色分类.cpp(48,6): error C2084: 函数“void sortColors(std::vector<int,std::allocator<int>> &)”已有主体
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt75.颜色分类\颜色分类.cpp(18): message : 参见“sortColors”的前一个定义
+C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt75.颜色分类\颜色分类.cpp(49,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
