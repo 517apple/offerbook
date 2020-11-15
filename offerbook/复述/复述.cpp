@@ -40,10 +40,14 @@ vector<int> smallerNumbersThanCurrent(vector<int>& nums) {
 int main(void)
 {
     vector<int> nums = {8, 1, 2, 2, 3};
-    nums = smallerNumbersThanCurrent(nums);
-    for (auto x : nums)
-        cout << x << " ";
+    //nums = smallerNumbersThanCurrent(nums);
+    //for (auto x : nums)
+    //    cout << x << " ";
 
+    cout << &(*begin(nums)) << endl;
+    //cout << end(nums) << endl;
+
+    cout << &nums.front() << endl;
 
 	cout << "hello world" << endl;
 	system("pause");

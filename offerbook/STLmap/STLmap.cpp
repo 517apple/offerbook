@@ -3,6 +3,7 @@
 #include <map> 
 #include <string> 
 #include <vector>
+#include <unordered_map>
 
 using namespace std;
 
@@ -34,12 +35,17 @@ void func()
 
 int main(void)
 {
-	//string s1 = "hello";
-	//map<int, string> My_map;
-	//My_map.emplace(pair < int, string>(1, s1));
-	//My_map.emplace(pair < int, string>(1, "apple"));
+	string s1 = "hello";
+	map<int, string> My_map;
+	My_map.emplace(pair < int, string>(1, s1));
+	My_map.emplace(pair < int, string>(1, "apple"));
+	My_map[2].emplace_back("12");
 
-	func();
+	unordered_map<double, vector<vector<int>>> m;
+	vector<int> vec;
+	vec.emplace_back
+
+	//func();
 
 	cout << "hello world" << endl;
 	system("pause");

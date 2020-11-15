@@ -1,0 +1,5 @@
+﻿  下一个排列.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt31.下一个排列\下一个排列.cpp(33,35): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt31.下一个排列\下一个排列.cpp(57,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt31.下一个排列\下一个排列.cpp(67,15): warning C4244: “初始化”: 从“double”转换到“int”，可能丢失数据
+  lt31.下一个排列.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt31.下一个排列.exe

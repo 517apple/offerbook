@@ -20,6 +20,11 @@ vector<vector<int>> kClosest(vector<vector<int>>& points, int K) {
 		m[sqrt(i[0] * i[0] + i[1] * i[1])].emplace_back(i);
 		//m.insert(make_pair(sqrt(i[0] * i[0] + i[1] * i[1]), i));
 	}
+	m[1].emplace_back(vector<int>{1, 2});
+	m[1].emplace_back(vector<int>{1, 2});
+
+	vector<int> test;
+	test.emplace_back(vector<int>{1, 2});
 	int cnt = 0;
 	vector<vector<int>> res;
 	for (auto& nums : m) {
