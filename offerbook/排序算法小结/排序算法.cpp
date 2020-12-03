@@ -192,6 +192,27 @@ void insertsort1(vector<int>& a)
 }
 
 
+/*
+* ¼ÆÊýÅÅÐò
+*/
+
+void countingSort(vector<int>& a,int maxval)
+{
+	int len = a.size();
+	vector<int> temp(maxval+1, 0);
+	for (int i = 0; i < len; i++)
+		temp[a[i]]++;
+	int index = 0;
+	for (int i = 0; i <= maxval; i++)
+	{
+		while (temp[i])
+		{
+			a[index++] = i;
+			temp[i]--;
+		}
+	}
+}
+
 int main(void)
 {
 	vector<int> a;
@@ -202,8 +223,8 @@ int main(void)
 	clock_t begin = clock();
 	cout << begin << endl;
 
-	for (long index = 0; index < 10; index++) {
-		a.push_back(rand()%100);
+	for (long index = 0; index < 15; index++) {
+		a.push_back(rand()%20);
 	}
 
 	begin = clock();
@@ -218,7 +239,8 @@ int main(void)
 	//bubbleSort(a);
 	//selectSort(a, 0);
 	//insertSort(a);
-	merge_sort(a);
+	//merge_sort(a);
+	countingSort(a, 20);
 
 	for (int x : a)
 		std::cout << x << " ";

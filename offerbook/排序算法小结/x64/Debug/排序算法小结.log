@@ -2,4 +2,5 @@
 C:\Users\apple\source\repos\517apple\offerbook\offerbook\排序算法小结\排序算法.cpp(130,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\apple\source\repos\517apple\offerbook\offerbook\排序算法小结\排序算法.cpp(166,28): warning C4267: “参数”: 从“size_t”转换到“int”，可能丢失数据
 C:\Users\apple\source\repos\517apple\offerbook\offerbook\排序算法小结\排序算法.cpp(175,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\排序算法小结\排序算法.cpp(201,20): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
   排序算法小结.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\排序算法小结.exe
