@@ -1,0 +1,3 @@
+﻿  摆动序列.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt376.摆动序列\摆动序列.cpp(15,26): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt376.摆动序列.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt376.摆动序列.exe

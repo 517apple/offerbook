@@ -51,7 +51,7 @@ vector<vector<int>> reconstructQueue(vector<vector<int>>& people) {
 int main(void)
 {
 	vector<vector<int>> people = { {7, 0} ,{4, 4},{7, 1},{5, 0},{6, 1},{5, 2} };
-	
+	int x = max(1, 2);
 	set<int> s;
 	for (int i = 1; i <= 10; ++i)
 	{

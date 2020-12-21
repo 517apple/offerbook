@@ -1,0 +1,6 @@
+﻿  翻转矩阵后的得分.cpp
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt.861.翻转矩阵后的得分\翻转矩阵后的得分.cpp(14,23): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt.861.翻转矩阵后的得分\翻转矩阵后的得分.cpp(17,29): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt.861.翻转矩阵后的得分\翻转矩阵后的得分.cpp(48,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt.861.翻转矩阵后的得分\翻转矩阵后的得分.cpp(51,23): warning C4244: “=”: 从“double”转换到“int”，可能丢失数据
+  lt.861.翻转矩阵后的得分.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt.861.翻转矩阵后的得分.exe

@@ -1,3 +1,3 @@
 ﻿  电话号码的字母组合.cpp
-C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt17.电话号码的字母组合\电话号码的字母组合.cpp(30,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
-C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\lt17.电话号码的字母组合\电话号码的字母组合.cpp(40): error C4716: “letterCombinations”: 必须返回一个值
+C:\Users\apple\source\repos\517apple\offerbook\offerbook\lt17.电话号码的字母组合\电话号码的字母组合.cpp(39,25): warning C4267: “初始化”: 从“size_t”转换到“int”，可能丢失数据
+  lt17.电话号码的字母组合.vcxproj -> C:\Users\apple\Source\Repos\517apple\offerbook\offerbook\x64\Debug\lt17.电话号码的字母组合.exe
