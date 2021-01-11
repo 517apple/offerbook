@@ -39,13 +39,17 @@ int main(void)
 	map<int, string> My_map;
 	My_map.emplace(pair < int, string>(1, s1));
 	My_map.emplace(pair < int, string>(1, "apple"));
-	My_map[2].emplace_back("12");
+	//My_map[2].emplace_back("12");
 
 	unordered_map<double, vector<vector<int>>> m;
 	vector<int> vec;
-	vec.emplace_back
 
 	//func();
+
+	unordered_map<int, int> mp;
+	mp[1] = 2;
+	//if (mp[2] == 1);
+	cout << mp[2] << endl;
 
 	cout << "hello world" << endl;
 	system("pause");
