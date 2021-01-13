@@ -211,6 +211,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt25.K个一组翻转链表
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt1202.交换字符串中的元素(并查集)", "lt1202.交换字符串中的元素(并查集)\lt1202.交换字符串中的元素(并查集).vcxproj", "{032EC364-E553-4847-BD3E-22F936CB4863}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "lt684.冗余连接(并查集)", "lt684.冗余连接(并查集)\lt684.冗余连接(并查集).vcxproj", "{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -1051,6 +1053,14 @@ Global
 		{032EC364-E553-4847-BD3E-22F936CB4863}.Release|x64.Build.0 = Release|x64
 		{032EC364-E553-4847-BD3E-22F936CB4863}.Release|x86.ActiveCfg = Release|Win32
 		{032EC364-E553-4847-BD3E-22F936CB4863}.Release|x86.Build.0 = Release|Win32
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Debug|x64.ActiveCfg = Debug|x64
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Debug|x64.Build.0 = Debug|x64
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Debug|x86.ActiveCfg = Debug|Win32
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Debug|x86.Build.0 = Debug|Win32
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Release|x64.ActiveCfg = Release|x64
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Release|x64.Build.0 = Release|x64
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Release|x86.ActiveCfg = Release|Win32
+		{5E6E8B95-924C-4CD7-9EA5-796243FB74AD}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

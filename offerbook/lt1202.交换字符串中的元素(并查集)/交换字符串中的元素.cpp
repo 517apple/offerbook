@@ -55,10 +55,10 @@ string smallestStringWithSwaps(string s, vector<vector<int>>& pairs) {
 	}
 
 	//第二步，构建映射关系
-	//不一定需要set吧，vector应该也是可以的
-	unordered_map<int, set<int>> mymap;
+	//不一定需要set吧，vector也是可以的
+	unordered_map<int, vector<int>> mymap;
 	for (int i = 0; i < len; i++)
-		mymap[dsu.find(i)].insert(i);
+		mymap[dsu.find(i)].push_back(i);
 
 	for (auto& e : mymap)
 	{
